@@ -9,6 +9,7 @@ public class clase_combo {
     private JLabel TextDisplay1;
     private JPanel root;
 
+    String aux = null;
     public clase_combo() {
         comboBox1.addActionListener(new ActionListener() {
             @Override
